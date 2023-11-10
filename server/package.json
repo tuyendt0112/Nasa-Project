@@ -18,7 +18,8 @@
   "scripts": {
     "watch": "nodemon src/server.js",
     "start": "node src/server.js",
-    "test": "mocha src/test/launchers.test.js"
+    "test-launchers": "mocha src/test/launchers.test.js",
+    "test-planets": "mocha src/test/planets.test.js"
   },
   "keywords": [],
   "author": "",
